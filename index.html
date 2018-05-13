@@ -17,9 +17,156 @@
     color: red
   }
 
+  
+  
+  
+  
+  
+  
+  
+  .wrapper {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height:100%;
+}
+
+svg {
+  max-width: 500px;
+  width: 100%; 
+}
+
+#frame-outline {
+  stroke: #C70B18;
+  fill: none;
+  stroke-dasharray: 1350;
+  stroke-dashoffset: 1350;
+  stroke-width: 2px;
+  animation: 2.6s frame-outline 1 forwards;
+}
+
+#frame-fill {
+  stroke: none;
+  fill: none;  
+  animation: 2s frame-fill 2.5s 1 forwards;
+}
+
+#a {
+  stroke: #C70B18;
+  fill: #fff;
+  stroke-dasharray: 380;
+  stroke-dashoffset: 380;
+  stroke-width: 1px;
+  animation: 2.6s text-outline 1 forwards;
+}
+
+#e {
+  stroke: #C70B18;
+  fill: #fff;
+  stroke-dasharray: 474;
+  stroke-dashoffset: 474;
+  stroke-width: 1px;
+  animation: 2.6s text-outline 1 forwards;
+}
+
+#d {
+  stroke: #C70B18;
+  fill: #fff;
+  stroke-dasharray: 346;
+  stroke-dashoffset: 346;
+  stroke-width: 1px;
+  animation: 2.6s text-outline 1 forwards;
+}
+
+#i {
+  stroke: #C70B18;
+  fill: #fff;
+  stroke-dasharray: 258;
+  stroke-dashoffset: 258;
+  stroke-width: 1px;
+  animation: 2.6s text-outline 1 forwards;
+}
+
+
+@keyframes frame-outline {
+  from {
+    stroke-dashoffset: 1350;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes text-outline {
+  from {
+    stroke-dashoffset: 500;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes frame-fill {
+  from {
+    fill: #fff; 
+  }
+  to {
+    fill: #C70B18; 
+  }
+}
    
   
+  
+  
+  
+  
+  
+  
+  
 </style>
+
+
+
+
+
+
+
+<div class="wrapper">
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="175px" viewBox="0 0 500 175"
+	 xml:space="preserve">
+	<rect id="frame-outline" width="500" height="175"/>
+  <rect id="frame-fill" width="500" height="175"/>
+	<path id="i" d="M452,137.5h-29.2v-100H452V137.5z"/>
+	<path id="d" d="M385.2,98.1c1.5-7,1.5-14.3,0-21.4c-2.8-12.8-9.7-22.6-20.9-30c-9.8-6.4-23.2-9.3-40.2-9.3h-1.8h-30.5v100
+		h30.5h1.8c17.1,0,30.5-2.9,40.2-9.3C375.5,120.8,382.4,110.9,385.2,98.1z M321.2,116.9c-0.3,0-0.2,0-1.4,0V58.6c1.2,0,1.2,0,1.4,0
+		c24.8,0,33.8,13.1,33.8,29.2C355,103.9,346.7,116.9,321.2,116.9z"/>
+	<polygon id="e" points="255.3,58.2 255.3,37.5 188.4,37.5 188.4,137.5 255.3,137.5 255.3,116.8 217.7,116.8 217.7,97.9 
+		250.6,97.9 250.6,77.1 217.7,77.1 217.7,58.2 	"/>
+	<path id="a" d="M151.8,137.5H120l-7.9-24.1h-31l-9.7,24.1H48l40.7-100H114L151.8,137.5z M107.4,97.8l-10-31.3L86.1,97.8H107.4
+		z"/>
+</svg>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [sendvid iframe here]
 
