@@ -1,475 +1,137 @@
+
 <style>
-
- /* ORIGINAL intro SVG animation CODE from
-  https://codepen.io/shozo/pen/wMLrbe
-  */	
-	
-  body{
-    background-color: #333;
-    text-align: center;
-    color: #ccc ;
-    font-size: 2em;
-    font-family: serif;
-    margin-right: 10% ;
- margin-left: 10% ;
-  }
+  body{background:#ddd;
+  padding:20%;
+    FONT-FAMILY:sans-serif;
+  color:#222;
+  border: solid 1px; border-radius: 4px}
   
-
-  a{
-    color: red
-  }
-
+  div.menu{
+  background:#1a6;
+  padding:;
+    FONT-FAMILY:sans-serif;
+  color:#fff;
+    font-size:1em;
+    text-align:center;
+  border:white solid 6px; border-radius: 1.4em}
   
+  DIV.content{
+     background:#1a6;
+  padding:;
+    FONT-FAMILY:sans-serif;
+  color:#eee;
+    font-size:1em;
+    text-align:center;
+  border:white solid 2px; border-radius: 0.4em} 
   
-  
-  
-  
-  
-  
-  .wrapper {
-  display:-webkit-box;
-  display:-ms-flexbox;
-  display:flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height:100%;
-}
-
-svg {
-  max-width: 500px;
-  width: 100%; 
-}
-
-#frame-outline {
-  stroke: #C70B18;
-  fill: none;
-  stroke-dasharray: 1350;
-  stroke-dashoffset: 1350;
-  stroke-width: 2px;
-  animation: 2.6s frame-outline 1 forwards;
-}
-
-#frame-fill {
-  stroke: none;
-  fill: none;  
-  animation: 2s frame-fill 2.5s 1 forwards;
-}
-
-#a {
-  stroke: #C70B18;
-  fill: #fff;
-  stroke-dasharray: 380;
-  stroke-dashoffset: 380;
-  stroke-width: 1px;
-  animation: 2.6s text-outline 1 forwards;
-}
-
-#e {
-  stroke: #C70B18;
-  fill: #fff;
-  stroke-dasharray: 474;
-  stroke-dashoffset: 474;
-  stroke-width: 1px;
-  animation: 2.6s text-outline 1 forwards;
-}
-
-#d {
-  stroke: #C70B18;
-  fill: #fff;
-  stroke-dasharray: 346;
-  stroke-dashoffset: 346;
-  stroke-width: 1px;
-  animation: 2.6s text-outline 1 forwards;
-}
-
-#i {
-  stroke: #C70B18;
-  fill: #fff;
-  stroke-dasharray: 258;
-  stroke-dashoffset: 258;
-  stroke-width: 1px;
-  animation: 2.6s text-outline 1 forwards;
-}
-
-
-@keyframes frame-outline {
-  from {
-    stroke-dashoffset: 1350;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes text-outline {
-  from {
-    stroke-dashoffset: 500;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes frame-fill {
-  from {
-    fill: #fff; 
-  }
-  to {
-    fill: #C70B18; 
-  }
-}
-   
-  
-  
-  
-  
-  
+  a{color:#fff;}
+  a:active{color:#fff;}
+  a:visited{color:#fff;}
   
   
   
 </style>
+<div class=menu>
+  <h1>
+  Hitch Live
+    </h1>
 
+    <p>
+    <h3>
+      <a href="#map">
+      MAP
+        </a>
+      <P>
+        <a href="#live">
+        LIVE
+          </a>      
+      <P>
+        <a href="#about">
+        ABOUT
+          </a>
+      </P>
+      <a href="#twitter">
+     TWITTER
+        </a>
+      <P>
+        <a href="#instagram">
+        INSTAGRAM
+          </a>
+      </P>
+  </h3>
+      </div>
 
-
-
-
-
-<div class="wrapper">
-<svg version="1.1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="175px" viewBox="45 -44 500 175"
-	 xml:space="preserve">
-	<rect id="frame-outline" width="500" height="175"/>
-  <rect id="frame-fill" width="500" height="175"/>
+  <br>
+</br>
   
   
-	<path id="i" d="M 307.17123,109.48344 270.56111,29.765606 v 63.299171 q 0,8.733333 1.8864,10.899193 2.58506,2.9344 8.17439,2.9344 h 3.3536 v 2.58507 h -32.97705 v -2.58507 h 3.3536 q 6.00853,0 8.52373,-3.63306 1.53707,-2.23574 1.53707,-10.200533 V 31.162939 q 0,-6.287997 -1.39734,-9.082663 -0.97813,-2.026132 -3.63306,-3.353598 -2.58507,-1.397333 -8.384,-1.397333 V 14.74428 h 26.82879 l 34.37438,74.128499 33.81545,-74.128499 h 26.82879 v 2.585065 h -3.28373 q -6.0784,0 -8.5936,3.633065 -1.53706,2.235732 -1.53706,10.200529 v 61.901838 q 0,8.733333 1.95626,10.899193 2.58507,2.9344 8.1744,2.9344 h 3.28373 v 2.58507 h -40.24318 v -2.58507 h 3.3536 q 6.0784,0 8.52373,-3.63306 1.53706,-2.23574 1.53706,-10.200533 V 29.765606 l -36.54025,79.717834 z"/>
-  
-	<path id="a"  d="m 209.78182,79.98537 h -35.21545 l -6.17108,14.354487 q -2.28062,5.299086 -2.28062,7.915093 0,2.07939 1.94523,3.68924 2.01231,1.54277 8.58586,2.01231 v 2.48185 h -28.64189 v -2.48185 q 5.70154,-1.00616 7.37847,-2.61601 3.42093,-3.2197 7.57971,-13.080021 l 31.99574,-74.857978 h 2.3477 l 31.66036,75.662902 q 3.8234,9.122477 6.90894,11.872637 3.15262,2.68308 8.72001,3.01847 v 2.48185 h -35.88621 v -2.48185 q 5.43324,-0.26831 7.3114,-1.81108 1.94523,-1.54278 1.94523,-3.75632 0,-2.951388 -2.68308,-9.323707 z m -1.87816,-4.963701 -15.42772,-36.758218 -15.83018,36.758218 z"/>
-                   
-                   
-  
-  
-	<path id="d"  
-       
-       d="m 51.068949,115.58304 v -2.7166 h 3.744499 q 6.314253,0 8.957429,-4.03818 1.615274,-2.42291 1.615274,-10.866393 V 33.644594 q 0,-9.324537 -2.055804,-11.674026 -2.86344,-3.230548 -8.516899,-3.230548 h -3.744499 v -2.716597 h 40.528693 q 22.320148,0 33.920758,5.066086 11.67402,5.066087 18.72249,16.886956 7.12189,11.820869 7.12189,27.312815 0,20.778297 -12.62851,34.72839 -14.17035,15.56537 -43.171864,15.56537 z m 28.414138,-7.19531 q 9.324536,2.0558 15.638789,2.0558 17.033794,0 28.267294,-11.967712 11.2335,-11.967712 11.2335,-32.452323 0,-20.631454 -11.2335,-32.525744 -11.2335,-11.894291 -28.854666,-11.894291 -6.607939,0 -15.051417,2.129225 z"
-        />
-  
-  
-  <path ID=a 
-           d="m 378.84512,15.099138 h 25.62377 L 462.192,85.912648 V 31.462141 q 0,-8.703725 -1.94964,-10.862249 -2.5763,-2.924452 -8.14668,-2.924452 h -3.2726 v -2.576302 h 32.86526 v 2.576302 h -3.34223 q -5.98816,0 -8.49483,3.62075 -1.53186,2.228154 -1.53186,10.165951 v 79.586869 h -2.50667 L 403.5637,35.013261 v 58.140886 q 0,8.703723 1.88001,10.862253 2.64593,2.92445 8.14669,2.92445 h 3.34223 v 2.5763 h -32.86527 v -2.5763 h 3.2726 q 6.05779,0 8.56447,-3.62075 1.53185,-2.22816 1.53185,-10.165953 V 27.493243 q -4.10816,-4.804457 -6.26668,-6.336313 -2.0889,-1.531855 -6.19705,-2.854821 -2.01927,-0.626669 -6.12743,-0.626669 z"
-           />
-  
-  
-  <path ID=a
-           d="m 496.12118,93.497348 q 3.97314,0 6.67825,2.789651 2.70512,2.705115 2.70512,6.593721 0,3.8886 -2.78965,6.67825 -2.70512,2.70512 -6.59372,2.70512 -3.88861,0 -6.67826,-2.70512 -2.70511,-2.78965 -2.70511,-6.67825 0,-3.973141 2.70511,-6.678256 2.78965,-2.705116 6.67826,-2.705116 z"/>
-  
-</svg>
-</div>
 
 
 
+<p id="map">
+  <BR>
+    </P>
+  <div class=content>
+    <p>
+    <b>MAP</b>
+    <p>
+    View the places Trevor has hitch hiked to during this trip, on this 
+    <a href="https://www.google.com/maps/d/u/0/viewer?mid=1enhPsqv_8Iic6u1AjRNxkaCRNUEkfLEZ&ll=39.54237292756608%2C-97.3211528&z=4">updated map</a>
+    <p>
+  </div>
 
-
-
-
-
-
-
-
-
-
-<br><br>
-
-<iframe width="640" height="360" src="//sendvid.com/embed/sz9fu0yu" frameborder="1" allowfullscreen></iframe>
-
-<br><br><br><br><br>
-
-
-
-
-
-
-
-
-<hr>
-  <p>
-    <i>
-made by</i>
 <br>
-DEAN PERA
-<br><br>
+</br>
 
-    <i>
-for
-      </i>
-<br>
-EMILIE KOENIG's
-<BR>
-ENGLISH 102
-  
-  <br><br>
-    <i>on
-   </i>
-    <br>
-    17 MAY 2018
+<p id="live">
+  <BR></P>
+  <div class=content>
+    <p>
+      <b>LIVE</b>
+      <P>
+        <a href="https://www.twitch.tv/hitch_live">Watch Trevor's live video</a> journey of hitch hiking America
+      <p>
+  </div>
+      
+      <BR>
+        <BR>
+          
+<p id="about">
+  <BR></P>
+  <div class=content>
+    <p>
+      <b>ABOUT</b>
+      <P>
+        Trevor is from Vancouver Island, Canada. Over the past four years he's hitchhiked 25 countries and been picked up 900+ times. His current mission is to go through all 50 states of USA. Feel free to <a href="https://streamlabs.com/hitch_live">tip</a>
+      <p>
+  </div>
+
   
   <br>
+    </br>
+
+<p id="twitter">
+  <BR></P>
+  <div class=content>
+    <p>
+      <b>TWITTER</b>
+      <P>
+        Significant news occasionally posted on <a href="https://twitter.com/live_hitch">Twitter</a>
+      <p>
+  </div>
+
+  
   <br>
-    &copy;
+    </br>
+          
 
-	  
-
-
-<hr>
-<u>
-<b>Transcription of Video</u>:</b>
-  <p>
-
-One year ago, world famous rapper 
-Kendrick Lamar released the album, DAMN.
-
-These are the fourteen tracks 
-you find on that record.
-
-The main message Kendrick Lamar raps about is God’s punishment, which can be heard in lyrics such as,
-
-“Why God, why God do I gotta suffer?”
-(From FEAR.)
-
-
-“I got dark, I got evil, that rot inside my DNA”
-(From DNA.)
-
-
-“Love's gonna get you killed, but pride’s gonna be the death of you and you and me”
-(From PRIDE.)
-
-An article from NPR suggests,
-“His struggles serve as proxy for the human condition, a mirror image of America's own dark soul.”
-
-This theme of suffering can be further proved with a voice clip found on the track FEAR,
-
-“We are the Israelites, according to the Bible, the children of Israel. He's gonna punish us for our iniquities, for our 
-disobedience, because we chose to follow other gods. That man chasten his son, so the Lord, thy God, chasten thee. So, just like you chasten your own son, He's gonna chastise you
-because He loves you”
-
-A quote from The Badger Herald reveals,
-“Lamar drives through the album while discussing how modern life is shaped by these predetermined forces.” 
-
-
-Kendrick Lamar also provides some moral advice to society,
-
-with the last song opening words,
-“It was always me versus the world, until I found it's me versus me”
-
-
-In an interview, he says this about his album,
-“DAMN would be the idea, 'I can't change the world until I change myself’ ... I would hope the listener can take heed ... and carry out their day to the best potential of themself.”
-
-
-Kendrick Lamar also writes a letter explaining his album, saying,
-“So in conclusion, I feel it's my calling to share the joy of God, but with exclamation, more so, the FEAR OF GOD. The balance. Knowing the power in what he can build, and also what he can destroy. At any given moment.”
-
-
-
-To help you connect these ethical arguments, I made a poem using all the track titles, summarizing the whole album. 
-But first, you should know that YAH is short for YAHWEH, which is God’s name.
-
-
-My BLOOD has evil DNA
-
-so YAH has tested my ELEMENT
-
-making me FEEL a need for LOYALTY
-
-because PRIDE kills my HUMBLE mind
-
-while  LUST prevents my LOVE.
-
-Now XXX years old, I don’t FEAR man, but GOD,
-
-He saved DUCKWORTH.
-
-<br>  
-    <hr>
-<br>
-  
-  
-  
-
-
-
-
-
-<u>
-
-  <b>Works Cited</u>:</b>
-<p>
-  <br>
-  
-  <a href="
-https://genius.com/Kendrick-lamar-fear-lyrics">Lyrics to "FEAR." at Genius
-</a>
-  
-<p> 
-  <a href="
-https://genius.com/Kendrick-lamar-dna-lyrics">Lyrics to "DNA." at Genius</a>
-
-<br>
-<p></p>
-  <a href="
-https://genius.com/Kendrick-lamar-pride-lyrics">
-Lyrics to "PRIDE." at Genius</a>
-<br>
-<p></p>
-<a href="
-https://genius.com/Kendrick-lamar-duckworth-lyrics
-">Lyrics to "DUCKWORTH." at Genius</a>
-
-<br>
-<p>.</p>
-DAMN would be the idea, 'I can't change the world until I change myself’ … I would hope the listener can take heed ... and carry out their day to the best potential of themself
-<br> 
-<a href="https://youtu.be/zwNhoyDjAPg">Kendrick Lamar: 'DAMN' Behind the Album [FULL INTERVIEW] | Beats 1 | Apple Music</a> [Quote starts at 16:42]
-
-<p>.</p>
-So in conclusion, I feel it's my calling to share the joy of God, but with exclamation, more so, the FEAR OF GOD. The balance. Knowing the power in what he can build, and also what he can destroy. At any given moment.
-<br>
-<a href="https://djbooth.net/features/2017-04-28-kendrick-lamar-god-response
-">https://djbooth.net/features/2017-04-28-kendrick-lamar-god-response
-</a>
-
-<p>.</p>
-Lamar drives through the album while discussing how modern life is shaped by these predetermined forces. 
-<br>
-<a href="https://badgerherald.com/artsetc/2017/04/18/kendrick-lamar-offers-subtle-yet-strong-messages-on-newest-release-damn
-">https://badgerherald.com/artsetc/2017/04/18/kendrick-lamar-offers-subtle-yet-strong-messages-on-newest-release-damn
-</a>
-
-<p>.</p>
-His struggles serve as proxy for the human condition, a mirror image of America's own dark soul. 
-<br>
-<a href="https://www.npr.org/2017/12/12/568748405/the-prophetic-struggle-of-kendrick-lamars-damn">https://www.npr.org/2017/12/12/568748405/the-prophetic-struggle-of-kendrick-lamars-damn</a>
-
-
-
-
-
-
-
-
-
-    
-	<p>
-	<hr>
-	<p>
-	Special Thanks:
-	<p>
-		<a href="https://hunred.github.io/aar">Aaron</a>
-		
-		<p>
-			
-			<a href="https://hunred.github.io/abb">Abby</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/ana>Ana</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/bri>Brittany</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/bry>Brynn</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/dan>Daniel</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/gus>Gustavo</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/hen>Henry</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/jai>Jaidy</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/jam>Jamie</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/jen>Jennifer</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/jes>Jessica</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/jos>Joseph</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/josh>Josh</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/kri>Kristen</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/lyd>Lydia</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/mic>Michael</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/mig>Mig</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/nil>Nils</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/pan>Pansy</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/rac>Rachel</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/tif>Tiffany</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/tyl>Tyler</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/van>Vanessa</a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/></a>
-		
-		<p>
-			
-			<a href=https://hunred.github.io/></a>
-		
-		<p>
-			
+<p id="instagram">
+  <BR></P>
+  <div class=content>
+    <p>
+      <b>INSTAGRAM</b>
+      <P>
+        Photos of the generous people who gave Trevor a ride at <a href="https://www.instagram.com/hitch_live/">instagram</a>
+      <p>
+  </div>
+          
